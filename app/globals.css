@@ -111,3 +111,16 @@ html {
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
   }
 }
+
+@keyframes slowspin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hover\:animate-slowspin:hover {
+  animation: slowspin 8s linear infinite;
+}
