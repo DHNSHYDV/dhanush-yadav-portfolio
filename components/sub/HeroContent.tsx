@@ -45,7 +45,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I'm Dhanush Yadav GN, an Electronics and Communication Engineering student at Sapthagiri College of Engineering, currently in my third year. I have a strong interest in technology and enjoy learning new skills that help me grow as an aspiring engineer. I'm familiar with programming in C and Python, and I've started exploring web development with HTML, CSS, and JavaScript. Lately, I've been focusing on building a solid foundation in data structures and algorithms to improve my problem-solving skills.
+          I&apos;m Dhanush Yadav GN, an Electronics and Communication Engineering student at Sapthagiri College of Engineering, currently in my third year. I have a strong interest in technology and enjoy learning new skills that help me grow as an aspiring engineer. I&apos;m familiar with programming in C and Python, and I&apos;ve started exploring web development with HTML, CSS, and JavaScript. Lately, I&apos;ve been focusing on building a solid foundation in data structures and algorithms to improve my problem-solving skills.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
