@@ -10,18 +10,16 @@ const Navbar = () => {
           href="#about-me"
           className="h-auto w-auto flex flex-row items-center"
         >
-          <div className="logo-blob w-[56px] h-[56px]">
-            <Image
-              src="/NavLogo.png"
-              alt="logo"
-              width={45}
-              height={45}
-              className="cursor-pointer hover:animate-slowspin"
-            />
-          </div>
+          <Image
+            src="/NavLogo.png"
+            alt="logo"
+            width={70}
+            height={70}
+            className="cursor-pointer hover:animate-slowspin"
+          />
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            Dhanush Yadav G N
+            WebChain Dev
           </span>
         </a>
 
@@ -41,20 +39,13 @@ const Navbar = () => {
 
         <div className="flex flex-row gap-5">
           {Socials.map((social) => (
-            <a
-              href={social.link}
-              target="_blank"
-              rel="noopener noreferrer"
+            <Image
+              src={social.src}
+              alt={social.name}
               key={social.name}
-            >
-              <Image
-                src={social.src}
-                alt={social.name}
-                width={24}
-                height={24}
-                className="cursor-pointer hover:opacity-80"
-              />
-            </a>
+              width={24}
+              height={24}
+            />
           ))}
         </div>
       </div>
