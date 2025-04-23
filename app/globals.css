@@ -69,3 +69,45 @@
 html {
   scroll-behavior: smooth;
 }
+
+.logo-blob {
+  background: #4169e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  animation: blob-animation 8s ease-in-out infinite;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  box-shadow: 0 0 20px rgba(65, 105, 225, 0.3);
+}
+
+.logo-blob img {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  border-radius: 50%;
+}
+
+.logo-blob:hover img {
+  transform: scale(1.1);
+}
+
+@keyframes blob-animation {
+  0% {
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  }
+  25% {
+    border-radius: 40% 60% 40% 60% / 50% 50% 50% 50%;
+  }
+  50% {
+    border-radius: 60% 40% 60% 40% / 40% 60% 40% 60%;
+  }
+  75% {
+    border-radius: 40% 60% 40% 60% / 60% 40% 60% 40%;
+  }
+  100% {
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  }
+}

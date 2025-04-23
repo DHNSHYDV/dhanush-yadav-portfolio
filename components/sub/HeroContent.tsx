@@ -33,12 +33,11 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Providing
+            Hello, This is
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              the best{" "}
+              Dhanush Yadav G N,{" "}
             </span>
-            project exprience
           </span>
         </motion.div>
 
@@ -46,14 +45,15 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          I'm Dhanush Yadav GN, an Electronics and Communication Engineering student at Sapthagiri College of Engineering, currently in my third year. I have a strong interest in technology and enjoy learning new skills that help me grow as an aspiring engineer. I'm familiar with programming in C and Python, and I've started exploring web development with HTML, CSS, and JavaScript. Lately, I've been focusing on building a solid foundation in data structures and algorithms to improve my problem-solving skills.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          href="/Dhanush_Yadav_Resume.pdf"
+          download="Dhanush_Yadav_Resume.pdf"
         >
-          Learn More!
+          Resume
         </motion.a>
       </div>
 
